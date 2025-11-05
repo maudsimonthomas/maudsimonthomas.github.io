@@ -404,7 +404,7 @@ body.contact-page {
   /* ------------------ Page Contact ------------------ */
   .contact-container {
     padding: 20px 30px;
-    width: 95%;
+    width: 85%;
   }
 
   .contact-container h1 {
@@ -416,6 +416,7 @@ body.contact-page {
   }
 
 }
+
 
 
 
