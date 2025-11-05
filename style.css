@@ -402,10 +402,17 @@ body.contact-page {
   }
 
   /* ------------------ Page Contact ------------------ */
+  body.contact-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+}
+  
    .contact-container {
     padding: 20px 25px;   /* réduit le padding pour libérer de l’espace */
     width: 90%;            /* largeur adaptée à l’écran */
-    max-width: 400px;      /* limite la largeur sur les écrans plus grands */
+    max-width: 450px;      /* limite la largeur sur les écrans plus grands */
     box-sizing: border-box; /* assure que padding n’augmente pas la largeur totale */
   }
 
@@ -418,6 +425,7 @@ body.contact-page {
   }
 
 }
+
 
 
 
