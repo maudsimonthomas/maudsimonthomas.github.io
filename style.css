@@ -332,7 +332,7 @@ body.contact-page {
     left: 40%;
     transform: translateX(-50%);
     gap: 10px;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     background: transparent;
     padding: 5px 10px;
     border-radius: 10px;
@@ -416,6 +416,7 @@ body.contact-page {
   }
 
 }
+
 
 
 
