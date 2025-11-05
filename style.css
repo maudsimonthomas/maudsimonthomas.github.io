@@ -68,7 +68,7 @@ a strong {
 /* ------------------ Page Accueil ------------------ */
 body.home {
   height: 100vh;
-  background: url('image/voltaire.jpg') no-repeat center center;
+  background: url('images/voltaire.jpg') no-repeat center center;
   background-size: cover;
   position: relative;
 }
@@ -297,4 +297,5 @@ body.contact-page {
 .contact-container a:hover {
   text-decoration: underline;
 }
+
 
