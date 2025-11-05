@@ -128,14 +128,14 @@ body.home::before {
   text-align: left;
 }
 
-.qui-suis-je-container .image {
+.qui-suis-je-container .images {
   flex: 1 1 45%;
   display: flex;
   flex-wrap: nowrap;  
   justify-content: center;
 }
 
-.qui-suis-je-container .image img {
+.qui-suis-je-container .images img {
   max-width: 100%;
   height: auto;
   border-radius: 12px;
@@ -297,6 +297,7 @@ body.contact-page {
 .contact-container a:hover {
   text-decoration: underline;
 }
+
 
 
 
