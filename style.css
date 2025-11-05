@@ -112,7 +112,7 @@ body.home::before {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 60px auto;
   gap: 20px;
 }
@@ -297,4 +297,5 @@ body.contact-page {
 .contact-container a:hover {
   text-decoration: underline;
 }
+
 
