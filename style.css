@@ -109,9 +109,9 @@ body.home::before {
 /* ------------------ Page Qui suis-je ? ------------------ */
 .qui-suis-je-container {
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: nowrap;      /* ne pas passer à la ligne par défaut */
   max-width: 1000px;
   margin: 60px auto;
   gap: 20px;
@@ -140,6 +140,19 @@ body.home::before {
   border-radius: 12px;
   width: 70%;
 }
+
+/* --- Adaptation mobile --- */
+@media (max-width: 700px) {
+  .qui-suis-je-container {
+    flex-direction: column; /* texte au-dessus, image en dessous */
+    align-items: center;
+  }
+
+  .qui-suis-je-container .texte {
+    text-align: center;
+  }
+}
+
 /*-----------------Pages Projets-----*/
 .projets-container {
   display: flex;
@@ -297,5 +310,6 @@ body.contact-page {
 .contact-container a:hover {
   text-decoration: underline;
 }
+
 
 
